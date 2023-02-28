@@ -1,0 +1,39 @@
+@import url(../__media_481_HEADER-13-1.css);
+
+.results-article {
+  grid-template-rows: auto minmax(80px, 190px) auto auto;
+}
+
+.datepicker-container {
+  gap: 5px;
+  margin-right: 7px;
+}
+
+.results-footer {
+  margin-top: 15px;
+  grid-template-rows: 0.2fr 1fr;
+  grid-template-areas:
+    "datepicker book-it-button"
+    "total-info-container total-info-container";
+  row-gap: 10px;
+}
+
+.datepicker {
+  width: 90px;
+  padding: 2px;
+}
+
+.datepicker-container button[type="submit"] {
+  /* Χρειαζεται να εχει σταθερο μηκος διοτι οταν πατιεται το submit button αλλαζει το value του στην HTML απο 'check availability' σε 'waiting'*/
+  /* Width has to be fixed because when the user clicks the submit button its value in HTML is changed from 'check availability' to 'waiting'*/
+  min-width: 145.05px;
+}
+
+.results-footer p.room-button {
+  height: 50px;
+  line-height: 38px;
+  min-width: 157.1px;
+  justify-self: flex-end;
+  align-self: center;
+  margin: 10px 0 5px;
+}

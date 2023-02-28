@@ -1,0 +1,21 @@
+.drop-down-container {
+  height: 475px;
+  border-radius: 20px;
+}
+
+.drop-header {
+  border-radius: 20px 20px 0 0;
+}
+.drop-down-inner {
+  height: 335px;
+}
+
+@media screen and (min-width: 769px) and (orientation: landscape) {
+  .drop-down-container {
+    border-radius: 24px;
+    height: 480px;
+  }
+  .drop-down-inner {
+    height: 340px;
+  }
+}

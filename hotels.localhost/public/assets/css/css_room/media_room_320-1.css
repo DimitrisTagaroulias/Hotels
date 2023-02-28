@@ -1,0 +1,11 @@
+.results-article {
+  grid-template-rows: auto minmax(80px, 130px) auto auto;
+}
+
+.datepicker {
+  width: auto;
+}
+
+.dateInput {
+  gap: 5px;
+}

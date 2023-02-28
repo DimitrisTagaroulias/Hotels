@@ -1,0 +1,40 @@
+body {
+  background-color: var(--mainBackgroundlightWhite);
+}
+
+.hero-container {
+  box-shadow: inset 0 0 20px rgba(49, 49, 49, 0.27);
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-title,
+.about-footer {
+  text-align: center;
+  font-size: var(--containerHeaderSize);
+}
+
+.about-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.about-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
+
+.about-main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 0;
+}
+
+.about-photo {
+  padding: 0 30px;
+}

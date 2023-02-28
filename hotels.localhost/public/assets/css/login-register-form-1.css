@@ -1,0 +1,11 @@
+/* */
+
+.empties {
+  display: none;
+}
+.hero-container {
+  background-image: url("../images/hero/hero-320.jpg");
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}

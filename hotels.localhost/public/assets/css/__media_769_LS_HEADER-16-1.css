@@ -1,0 +1,31 @@
+html {
+  font-size: 120%;
+}
+
+#logo {
+  grid-area: logo;
+  background-image: url("../images/logo/logo_Full.png");
+}
+
+.page-intro {
+  grid-template-columns: 3fr 5fr;
+}
+.logged-in-inner {
+  width: 6px;
+  height: 6px;
+  margin-right: 3px;
+}
+.header-nav {
+  grid-template-columns: 1fr minmax(760px, 1300px) 1fr;
+
+  grid-template-areas: "empty1 nav-ul empty2";
+}
+.header-nav #empty1 {
+  grid-area: empty1;
+}
+.header-nav #empty2 {
+  grid-area: empty2;
+}
+.header-ul {
+  grid-area: nav-ul;
+}

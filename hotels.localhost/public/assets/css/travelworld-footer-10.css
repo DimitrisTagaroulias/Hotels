@@ -1,0 +1,13 @@
+/*--------------------FOOTER START-------------------------*/
+
+#home-footer {
+  font-size: var(--small-0875rem-14px);
+  color: black;
+  grid-area: footer;
+  text-align: center;
+  background-image: linear-gradient(var(--mainColor));
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.308);
+  z-index: 100;
+}
+
+/*--------------------FOOTER END----------------------------*/

@@ -1,0 +1,7 @@
+@import url(../__media_320_HEADER_11-1.css);
+
+@import url(../__media_320_Back_Ground_Photo_11-2.css);
+
+.results-article {
+  grid-template-rows: auto minmax(80px, 130px) auto auto;
+}

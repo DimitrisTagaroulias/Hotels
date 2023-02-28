@@ -1,0 +1,30 @@
+.date-error {
+  position: relative;
+  padding: 1px 8px 2px;
+  border-left: solid 1px rgb(162, 162, 162);
+  border-right: solid 1px rgb(162, 162, 162);
+  font-size: var(--x-small-075rem-12px);
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.drop-down-container .datepicker .ui-state-highlight {
+  border: 1px solid #4472ff;
+  background: rgb(86, 188, 255);
+  color: #ffffff;
+}
+.drop-down-container .datepicker .ui-state-highlight:hover {
+  border: 1px solid #0040ff;
+  background: rgb(52, 174, 255);
+  color: #ffffff;
+}
+.width-100per {
+  width: 100%;
+}
+
+.datepicker button[type="button"] {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: var(--small-0875rem-14px);
+}

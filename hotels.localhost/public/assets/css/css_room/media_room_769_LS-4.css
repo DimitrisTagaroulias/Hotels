@@ -1,0 +1,125 @@
+@import url(../__media_769_LS_HEADER-16-1.css);
+
+body {
+  background-color: #e2e2e2;
+}
+
+.hero-container {
+  max-width: 900px;
+  margin: 5px auto;
+}
+
+.nav-frag {
+  box-shadow: inset 0px 0px 3px rgb(61 61 61);
+}
+
+/* HOTELS SEARCH START*/
+.user-text-review {
+  line-height: var(--lineHeight-paragraph-769);
+}
+
+.results-description {
+  line-height: var(--lineHeight-paragraph-769);
+}
+
+.results-article {
+  grid-template-rows: auto minmax(80px, 240px) auto auto;
+  margin: 3px 0;
+}
+
+.search-results-title h2 {
+  background-image: linear-gradient(var(--mainColor));
+}
+/* HOTELS SEARCH END*/
+
+/* TOTAL INFO START*/
+#room-info .hidden-cost-footer {
+  display: none;
+}
+#room-info .hidden-cost-header {
+  display: grid;
+  text-align: center;
+}
+.results-header {
+  grid-template-columns: 2.5fr 1fr;
+  grid-template-areas:
+    "hotel-name hotel-name"
+    "place-adress place-adress"
+    "review-txt total-info-middle";
+}
+
+.total-info-left,
+.total-info-right {
+  display: contents;
+  text-align: center;
+}
+
+.total-info-container {
+  grid-area: total-info-container;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    "guests type have-parking have-wifi is-pet-friendly"
+    "count-of-guests type-of-room parking wifi pet-friendly"
+    "total-info-middle total-info-middle total-info-middle total-info-middle total-info-middle";
+
+  background-color: #bdbdbd;
+  border-radius: 3px;
+}
+
+.total-info-middle {
+  background-color: transparent;
+}
+
+.total-info-left > *:not(.pet-friendly) {
+  padding: 0px 0px;
+  align-self: flex-start;
+
+  border-right: 2px dashed gray;
+  margin-top: 2px;
+}
+
+.total-info-right > *:not(.is-pet-friendly) {
+  padding: 0px 0px;
+  align-self: flex-end;
+  border-right: 2px dashed gray;
+}
+
+.is-pet-friendly {
+  align-self: flex-end;
+}
+
+.cost {
+  grid-area: cost;
+  color: #ebebeb;
+  background-color: #adadad;
+  color: black;
+  padding: 3px 5px 0px;
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+}
+.price {
+  grid-area: price;
+  color: #ebebeb;
+  background-color: #5e5e5e;
+  padding: 3px 5px 0px;
+  border-radius: 0 4px 4px 0;
+}
+
+#my-review-submit-button {
+  font-size: var(--normal-1rem-16px);
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  align-self: center;
+  margin-bottom: 15px;
+  border: 1px solid rgb(94, 94, 94);
+  background-image: linear-gradient(var(--submitHome-color));
+}
+/* TOTAL INFO END*/
+
+/* OUT of @Mediaquery*/
+
+/* OUT of @Mediaquery*/
+
+/* OUT of @Mediaquery*/

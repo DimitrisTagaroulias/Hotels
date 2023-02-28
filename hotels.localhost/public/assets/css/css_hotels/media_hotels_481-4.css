@@ -1,0 +1,20 @@
+@import url(../__media_481_HEADER-13-1.css);
+@import url(../__media_481_Back_Ground_Photo-13-2.css);
+
+.search-fieldset {
+  width: 90%;
+}
+.results-article {
+  grid-template-rows: auto minmax(80px, 190px) auto auto;
+}
+.results-title-sub-container {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "empty-box result-title shorting";
+}
+.empty-box {
+  display: block;
+  grid-area: "empty-box";
+}
+.search-results-title h2 {
+  justify-self: center;
+}

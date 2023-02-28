@@ -1,0 +1,12 @@
+#home-header {
+  grid-template-rows: minmax(95px, min-content) min-content min-content;
+}
+.page-intro {
+  letter-spacing: 0.04rem;
+}
+#company-name {
+  font-size: var(--companyNameSize-320-2);
+}
+#slogan {
+  font-size: var(--sloganSize-320-2);
+}

@@ -1,0 +1,270 @@
+/* Reset CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+/* root START*/
+:root {
+  /* COLORS */
+  --mainBackgroundWhite: rgb(212, 212, 212);
+  --mainBackgroundlightWhite: rgb(230, 230, 230);
+  --mainColor: to bottom, rgb(0, 149, 255), rgb(49, 172, 255);
+  --mainColorFlat: to bottom, rgb(49, 172, 255), rgb(49, 172, 255);
+  --mainColorMirrorHorrizontal: to bottom, rgb(0, 149, 255), rgb(49, 172, 255),
+    rgb(0, 149, 255);
+  --submitHome-color: to bottom, rgb(194, 194, 194), rgb(223, 223, 223);
+  --submitHome-hoverColor: to bottom, rgb(188, 188, 188), rgb(215, 215, 215);
+  --searchDates-color: to bottom, rgb(200, 200, 200), rgb(210, 210, 210);
+  --searchDates-color: to bottom, rgb(192, 192, 192), rgb(210, 210, 210);
+  --searchDates-hoverColor: to bottom, rgb(213, 213, 213), rgb(238, 237, 237);
+  --asideLinks-color: #007896;
+  --results-backgroundColor: to bottom, rgb(188, 188, 188), rgb(215, 215, 215);
+  --deepBlue: to bottom, #004297, #0068f0;
+  --hotSummerGradient: to bottom, #f17019, rgb(255, 203, 31);
+  --logged-in: rgb(43, 255, 0), rgb(35, 211, 0), rgb(30, 182, 0);
+  --asideBackgroundColor: rgb(204, 204, 204);
+  --disabledColor: rgb(157, 157, 157);
+  /*  */
+
+  /* Box Shadow */
+  --box-shadow-black: inset 0px 0px 3px rgb(0, 0, 0);
+  --box-shadow-dark-gray: inset 0px 0px 3px rgb(59, 59, 59);
+  --box-shadow-medium-gray: inset 0px 0px 3px rgb(87, 87, 87);
+  --box-shadow-normal-gray: inset 0px 0px 3px rgb(114, 114, 114);
+  --box-shadow-thin-black: inset 0px 0px 1px rgb(0, 0, 0);
+
+  /*  */
+
+  /* Font Family */
+
+  --bodyFont-Family: "OpenSans-regular", Arial, Helvetica, sans-serif;
+  --logoFont-Family: "WalkAway-regular", "OpenSans-regular", Arial, Helvetica,
+    sans-serif;
+
+  /*  */
+
+  /* Font Size */
+  --xx-small-075rem-10px: 0.63rem;
+  --x-small-075rem-12px: 0.75rem;
+  --small-0875rem-14px: 0.875rem;
+  --smedium-0938rem-15px: 0.938rem;
+
+  --normal-1rem-16px: 1rem; /*<p>,<nav>*/
+  --large-1125rem-18px: 1.125rem;
+  --x-large-1175rem-20px: 1.175rem;
+  --xx-large-15rem-24px: 1.5rem;
+  --xxx-large-2rem-32px: 2rem;
+
+  --companyNameSize-280-1: 32px;
+  --companyNameSize-320-2: 32.5px;
+  --companyNameSize-414-3: 43.12px;
+  --companyNameSize-481-4: 51.84px;
+
+  --sloganSize-280-1: 12.8px;
+  --sloganSize-320-2: 13.9px;
+  --sloganSize-414-3: 17.6px;
+  --sloganSize-481-4: 20.16px;
+
+  --navMenuIconsSize: 1.1rem;
+  --searchMenuIconsSize: 0.8rem;
+  --newsOffersSize: 1rem;
+  --newsOffersArrowDownIconSize-_-navFrag-arrow-Up-i: 0.875rem;
+  --containerHeaderSize: 1.29rem;
+  --articleHeaderSize: 1.2rem;
+  --outerLink-MoreSize: 1.1rem;
+  --userName-reviewSize: 1.05rem;
+
+  /* Line Height */
+
+  --lineHeight-paragraph-280-1: normal;
+  --lineHeight-paragraph-481: 1.2rem; /*unused*/
+  --lineHeight-paragraph-769: 1.3rem;
+}
+/* root END*/
+
+/* DISABLED*/
+:disabled {
+  color: var(--disabledColor);
+}
+
+/* */
+.hidden {
+  display: none;
+}
+.non-visible {
+  visibility: hidden;
+}
+
+.modalErrorResponse {
+  margin: 16px;
+  padding: 20px 5px;
+  color: rgb(223, 0, 0);
+  border: 1px solid rgb(179, 0, 0);
+  text-align: center;
+  font-size: var(--large-1125rem-18px);
+}
+
+/* */
+
+/* ------ media query mobile nim=280px ------ */
+/* ------ media query mobile nim=280px ------ */
+/* ------ media query mobile nim=280px ------ */
+
+/* */
+
+/*main*/
+body {
+  font-family: var(--bodyFont-Family);
+  min-width: 280px;
+  max-width: 5000px;
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+  grid-template-areas:
+    "header"
+    "hero-container"
+    "footer";
+  background-color: #f5f5f5;
+}
+/*--------------------HEADER START-------------------------*/
+
+/* Header */
+.logo-container,
+.logo-container a {
+  display: contents;
+}
+
+#home-header {
+  background-image: url("../images/hero/hero-769_2\(2560x1708\)_trimmed_Final.jpg");
+  background-size: cover;
+  grid-area: header;
+  display: grid;
+  grid-template-rows: minmax(85px, min-content) min-content min-content;
+  grid-template-areas:
+    "page-intro  "
+    "logged-in"
+    "nav";
+  z-index: 100;
+}
+
+.page-intro {
+  font-style: italic;
+  font-family: var(--logoFont-Family);
+  letter-spacing: 0.02rem;
+  padding: 4px 4px 0 4px;
+  grid-area: page-intro;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: 2.5fr 5fr;
+  justify-self: start;
+  grid-template-areas:
+    "logo company-name"
+    "logo slogan";
+}
+
+#logo {
+  min-width: 90px;
+  grid-area: logo;
+  background-image: url("../images/logo/logo_200px.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#company-name {
+  grid-area: company-name;
+  align-self: flex-end;
+  font-size: var(--companyNameSize-280-1);
+  text-align: center;
+}
+
+#slogan {
+  text-align: center;
+  grid-area: slogan;
+  font-size: var(--sloganSize-280-1);
+  padding: 0 5px 0 0;
+  align-self: flex-start;
+}
+
+.logged-in {
+  font-size: var(--xx-small-075rem-10px);
+  justify-self: right;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 0.1rem 0.3rem 0.1rem;
+  border-radius: 5px 0 0 5px;
+  background-color: rgba(0, 0, 0, 0.123);
+  margin-top: -10px;
+}
+
+.logged-in-inner {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 0px 2px 1px;
+  border-radius: 100%;
+  background-image: radial-gradient(var(--logged-in));
+}
+.header-nav {
+  text-align: center;
+  background-image: linear-gradient(var(--mainColor));
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.308);
+  grid-area: nav;
+  display: grid;
+}
+
+.header-ul {
+  list-style: none;
+  color: rgb(8, 8, 8);
+  font-size: var(--normal-1rem-16px);
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "about-us register-nav log-in"
+    "home hotels profile";
+}
+
+.header-nav .active {
+  color: #ebebeb;
+}
+
+.header-nav .header-ul li {
+  padding: 0.9rem 0;
+  align-self: center;
+}
+
+.header-nav .header-ul #hotels {
+  grid-area: hotels;
+}
+
+.header-nav .header-ul #home {
+  grid-area: home;
+}
+
+.header-nav .header-ul #profile {
+  grid-area: profile;
+}
+
+.header-nav .header-ul #log-in {
+  grid-area: log-in;
+}
+
+.header-nav .header-ul #register-nav {
+  grid-area: register-nav;
+}
+.header-nav .header-ul #about-us {
+  grid-area: about-us;
+}
+
+.header-nav .header-ul i {
+  font-size: var(--navMenuIconsSize);
+  position: relative;
+  top: -1px;
+}
+
+/*--------------------HEADER END-------------------------*/

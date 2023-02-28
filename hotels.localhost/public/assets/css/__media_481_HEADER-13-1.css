@@ -1,0 +1,15 @@
+html {
+  font-size: 105%;
+}
+
+#home-header {
+  grid-template-rows: minmax(130px, 1fr) min-content min-content;
+}
+#company-name {
+  text-align: unset;
+  font-size: var(--companyNameSize-481-4);
+}
+#slogan {
+  text-align: unset;
+  font-size: var(--sloganSize-481-4);
+}

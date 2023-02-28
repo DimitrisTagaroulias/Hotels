@@ -1,0 +1,8 @@
+#home-header {
+  grid-template-rows: minmax(130px, 2fr) min-content min-content;
+}
+.header-ul {
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: "about-us home hotels register-nav log-in profile";
+}

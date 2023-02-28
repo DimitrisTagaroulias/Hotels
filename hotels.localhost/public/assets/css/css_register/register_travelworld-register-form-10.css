@@ -1,0 +1,70 @@
+/* REGISTER FORM STYLE ----- START */
+
+/*  */
+@import url(../modal_style.css);
+
+/* RegistrationRulesError */
+/* RegistrationRulesError */
+/* RegistrationRulesError */
+p.par-basic-css {
+  font-size: var(--small-0875rem-14px);
+  margin: 0px 0 7px;
+}
+
+p.registrationRulesError {
+  color: red;
+}
+
+.modal input[type="text"].reg-input-error,
+.modal input[type="password"].reg-input-error {
+  border-radius: 3px;
+  border: solid 1px rgb(255, 39, 39);
+  box-shadow: inset 0px 0px 2px red;
+}
+
+.modal input[type="text"].reg-input-valid,
+.modal input[type="password"].reg-input-valid {
+  border-radius: 3px;
+  border: solid 1px rgb(20, 173, 0);
+  box-shadow: inset 0px 0px 2px rgb(94, 255, 0);
+}
+
+.modal input[type="text"].reg-input-normal-focus,
+.modal input[type="password"].reg-input-normal-focus {
+  outline: 1px solid rgb(39, 187, 255);
+  outline-offset: -1px;
+  border-radius: 3px;
+  box-shadow: inset 0px 0px 2px rgb(39, 187, 255);
+}
+/* RegistrationRulesError */
+/* RegistrationRulesError */
+/* RegistrationRulesError */
+
+#regForm-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 1rem;
+}
+
+.resetForm-btn-REG {
+  min-width: 135px;
+  width: 25%;
+  background-color: #838383;
+}
+
+/* Change styles for span on extra small screens */
+
+@media screen and (max-width: 570px) {
+  #regForm-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 1rem;
+  }
+  .resetForm-btn-REG {
+    width: 100%;
+  }
+}
+
+/*  */
+
+/* LOGIN FORM STYLE ----- END */

@@ -1,0 +1,80 @@
+.modal {
+  font-family: "OpenSans-regular", Arial, Helvetica, sans-serif;
+  min-width: 280px;
+  padding-top: 10px;
+}
+
+/* Full-width input fields */
+.modal input[type="text"],
+.modal input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: inherit; /*place-holder*/
+}
+
+.modal-content label {
+  display: block;
+  width: fit-content;
+  margin-top: 8px;
+}
+/* FOCUS on INPUTS */
+.modal input[type="text"]:focus,
+.modal input[type="password"]:focus {
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.login-form-button,
+.final-registration-button,
+.resetForm-btn-REG {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: inherit;
+}
+
+.login-form-button:hover,
+.final-registration-button:hover,
+.resetForm-btn-REG:hover {
+  opacity: 0.8;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  min-width: 200px;
+  max-width: 1000px;
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+/*CHECK-BOX Container*/
+
+.modal-content label.show-password {
+  width: fit-content;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2px;
+  font-size: var(--x-small-075rem-12px);
+  font-style: italic;
+  margin: 7px 0 15px;
+}
+
+.modal-content input[name="show-password"] {
+  position: relative;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.inputs-container {
+  padding: 16px;
+}

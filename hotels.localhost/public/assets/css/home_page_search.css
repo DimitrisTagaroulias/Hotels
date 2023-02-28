@@ -1,0 +1,139 @@
+.drop-down-container {
+  position: absolute;
+  height: 320px;
+  background-image: linear-gradient(var(--mainColorMirrorHorrizontal));
+  color: #ffffff;
+  z-index: 10;
+  width: 100%;
+  padding: 0px 0 35px;
+  font-size: var(--normal-1rem-16px);
+  border-radius: 21px;
+  color: rgb(0 0 0);
+  box-shadow: inset rgb(0, 0, 0) 0 0 1.5px;
+  overflow: hidden;
+  outline: 1px white solid;
+  box-shadow: inset rgb(255, 255, 255) 0 0 1.5px;
+}
+
+.drop-down-inner {
+  height: 190px;
+  text-align: start;
+  padding: 8px;
+  border-top: 1px solid rgb(240, 240, 240);
+  border-bottom: 1px solid rgb(240, 240, 240);
+  box-shadow: inset rgb(255, 255, 255) 0 0 1.5px;
+  z-index: 20;
+  list-style: none;
+  background-color: rgb(223, 223, 223);
+  overflow-y: auto;
+}
+
+.font-size-06rem {
+  font-size: 0.6rem;
+}
+
+.font-size-07rem {
+  font-size: 0.7rem;
+}
+
+.font-size-08rem {
+  font-size: 0.8rem;
+}
+
+.font-size-09rem {
+  font-size: 0.9rem;
+}
+
+.margin-t-b--02 {
+  margin: -2px 0;
+}
+
+.margin-top-error-choise {
+  margin-top: -5px;
+}
+
+.blue-font-color {
+  color: rgb(0, 149, 255);
+}
+
+.drop-header {
+  box-shadow: none;
+  padding: 19px 12.8px 19px;
+  border-radius: 21px 21px 0 0;
+  outline: none;
+  background-image: linear-gradient(var(--mainColor));
+  color: #ffffff;
+  box-shadow: inset rgb(255, 255, 255) 0 0 1.5px;
+  z-index: 50;
+}
+
+.drop-down-container i {
+  color: #fff;
+  align-self: center;
+}
+
+.drop-header:hover {
+  box-shadow: inset rgb(255, 255, 255) 0 0 5px;
+}
+.drop-header:active {
+  box-shadow: unset;
+}
+
+.drop-down-container {
+  cursor: pointer;
+}
+.drop-down-container li:hover {
+  color: white;
+  background-color: rgb(49, 172, 255);
+}
+
+.drop-input {
+  width: 100%;
+  padding: 4px 8px 0px;
+  font-size: var(--normal-1rem-16px);
+  margin-top: 1px;
+  border-top: none;
+  border-bottom: none;
+  border-left: solid 1px rgb(197, 197, 197);
+  border-right: solid 1px rgb(196, 196, 196);
+}
+.drop-input:not(#check-in-date-input, #check-out-date-input) {
+  pointer-events: none;
+}
+
+.drop-input:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+.search-error-report {
+  /* It has to exist because we use it for :HOVER */
+}
+.errorTextColor {
+  color: rgb(216, 0, 0);
+}
+
+.search-error-report:hover {
+  background-image: linear-gradient(var(--submitHome-color)) !important;
+  color: var(--disabledColor) !important;
+  text-shadow: none !important;
+  outline: solid 1px rgb(94, 94, 94) !important;
+  box-shadow: inset rgb(0, 0, 0) 0 0 1.5px !important;
+}
+
+@media screen and (min-width: 769px) and (orientation: landscape) {
+  .drop-down-container {
+    border-radius: 22px;
+    height: 340px;
+  }
+  .drop-header {
+    padding: 17px 12.8px 17px;
+    border-radius: 22px 22px 0 0;
+  }
+
+  .date-error-fix-margin {
+    margin: -6px 0 -4px;
+  }
+}

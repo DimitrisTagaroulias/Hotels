@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "OpenSans-regular";
+  src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "WalkAway-regular";
+  src: url("../fonts/Walkway-fontfacekit/web_fonts/walkwayobliqueultrabold_regular_macroman/Walkway_Oblique_UltraBold-webfont.woff");
+}

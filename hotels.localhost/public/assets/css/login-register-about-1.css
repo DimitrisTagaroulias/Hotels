@@ -1,0 +1,36 @@
+/* */
+
+/*--------------------MAIN START-------------------------*/
+.empties {
+  display: none;
+}
+.hero-container {
+  background-image: url("../images/hero/hero-320.jpg");
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* min-height: 800px; */
+/* grid-area: hero-container;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "hero-menu"
+    "search-results"; */
+/* } */
+
+/* #outer-main {
+  grid-area: hero-menu;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+#home-main {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "search-message"
+    "search-box"
+    "fragm";
+} */
+/*--------------------MAIN END-------------------------*/

@@ -1,0 +1,13 @@
+@import url(../__media_414_HEADER-12.css);
+
+.datepicker {
+  font-size: var(--smedium-0938rem-15px);
+}
+
+.from-to-date {
+  font-size: var(--normal-1rem-16px);
+}
+
+.datepicker-container button[type="submit"] {
+  font-size: var(--normal-1rem-16px);
+}

@@ -1,0 +1,100 @@
+/* PRICE FIELD START*/
+/* PRICE FIELD START*/
+/* PRICE FIELD START*/
+
+.wrapper-price {
+  padding: 9px 23px;
+  display: flex;
+  flex-flow: column nowrap;
+  grid-area: price;
+  font-size: var(--normal-1rem-16px);
+  border-radius: 25px;
+}
+
+.price-input {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+}
+.price-input input {
+  margin: 5px;
+  border: solid 1px rgb(180, 180, 180);
+  width: 100%;
+  text-align: center;
+  -moz-appearance: textfield;
+}
+
+.price-input input {
+  border-radius: 7px;
+}
+
+.price-text {
+  display: flex;
+  align-content: center;
+  padding: 0 0.5rem;
+  justify-content: space-between;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+}
+.slider {
+  width: 90%;
+  height: 5px;
+  border-radius: 5px;
+  background: #ddd;
+  margin: 10px 0 6px;
+  position: relative;
+}
+
+.slider .progress {
+  height: 5px;
+  left: 0%;
+  right: 0%;
+  position: absolute;
+  border-radius: 5px;
+  background: #17a2b8;
+}
+
+.range-input {
+  position: relative;
+}
+.range-input input {
+  position: absolute;
+  top: -11px;
+  left: 7px;
+  height: 4px;
+  width: 94%;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  background: #17a2b8;
+  pointer-events: auto;
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 14px;
+  width: 14px;
+  border: none;
+  border-radius: 50%;
+  -moz-appearance: none;
+  background: #17a2b8;
+  pointer-events: auto;
+}
+
+/* PRICE FIELD END*/
+/* PRICE FIELD END*/
+/* PRICE FIELD END*/

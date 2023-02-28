@@ -1,0 +1,118 @@
+@import url(../__media_769_LS_HEADER-16-1.css);
+@import url(../__media_769_LS_Back_Ground_Photo-16-2.css);
+
+#sorting-form select {
+  text-align: end;
+  font-family: var(--bodyFont-Family), fontAwesome;
+  width: 124px;
+}
+
+.empties {
+  display: block;
+}
+
+.hero-container {
+  grid-template-rows: 50px auto 50px;
+  grid-template-columns:
+    minmax(10px, auto) minmax(300px, 400px) minmax(15px, 40px)
+    minmax(475px, 700px) minmax(10px, auto);
+  grid-template-areas:
+    "empty-top empty-top empty-top empty-top empty-top"
+    "empty main-wide empty2 hotels empty3"
+    "empty-bottom empty-bottom empty-bottom empty-bottom empty-bottom";
+}
+
+.empty-top {
+  grid-area: empty-top;
+}
+.empty-bottom {
+  grid-area: empty-bottom;
+}
+
+#offers-scroll-news {
+  display: none;
+}
+
+.nav-frag {
+  margin-top: -5px;
+}
+
+/*  */
+
+#outer-main {
+  grid-area: main-wide;
+}
+
+#after-nav {
+  height: 47px;
+  line-height: 47px;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 0px;
+  color: #ebebeb;
+  background-image: linear-gradient(var(--mainColor));
+  text-shadow: none;
+  box-shadow: var(--box-shadow-normal-gray);
+}
+
+.search-fieldset {
+  width: 100%;
+  margin: 20px 0;
+  min-width: 257px;
+  max-width: 380px;
+  grid-template-rows: repeat(3, 1fr) 1.5fr repeat(3, 1fr);
+}
+
+/* HOTELS SEARCH START*/
+
+#hotel-results {
+  grid-area: hotels;
+}
+.search-results {
+  height: fit-content;
+  box-shadow: var(--box-shadow-dark-gray);
+}
+
+.search-results-title {
+  box-shadow: var(--box-shadow-normal-gray);
+}
+
+.results-description {
+  line-height: var(--lineHeight-paragraph-769);
+}
+
+.search-results-title h2 {
+  color: #ebebeb;
+  text-align: center;
+}
+
+.results-header {
+  padding: 9px 0 7px 5px;
+}
+
+.results-article {
+  grid-template-rows: auto minmax(80px, 240px) auto auto;
+  margin: 3px 0;
+}
+
+.search-results h4 {
+  border-radius: 0 0 5px 0;
+}
+
+.search-results {
+  background-image: linear-gradient(var(--results-backgroundColor));
+}
+
+/* HOTELS SEARCH END*/
+
+@media screen and (min-width: 995px) and (orientation: landscape) {
+  #after-nav {
+    font-size: 1.2rem;
+  }
+}
+/* OUT of @Mediaquery*/
+
+/* OUT of @Mediaquery*/
+
+/* OUT of @Mediaquery*/
