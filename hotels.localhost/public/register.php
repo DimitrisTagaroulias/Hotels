@@ -55,8 +55,7 @@
                   <b>Username</b>
                 </label>
                 <input type="text" placeholder="Enter Username" name="userNameREG" class="reg-input input-0" id="reg-user-name">
-                <p id="reg-ErrorUserName" class                  Username should be between 8 - 20 chara                  Username should be between 6 - 18 characters! First and last letter shouldn't
-                be a special character. Also _. or ._ are not valid sequence.
+                <p id="reg-ErrorUserName" class="par-basic-css toBeDisplayedOnSubmit-0 starts-visible">Username should be between 8 - 20 characters. First and last letter shouldn't be a special character. White space character is not allowed. Also _. or ._ are not valid sequence.
                 </p>
                 <label for="emailREG">
                   <b>Email</b>
@@ -83,7 +82,7 @@
                   <input type="checkbox" name="show-password"> Show/Hide password
                 </label>
                 <p id="reg-ErrorPassword" class="par-basic-css toBeDisplayedOnSubmit-3 starts-visible">
-                  Password should be at least 8 characters and should contain least one digit,one upper case letter,one lower case letter.
+                  Password should be between 8 -16 characters and should contain at least 1 special character, 1 digit, 1 upper case letter, 1 lower case letter. White space character is not allowed
                 </p>
                 <div id="regForm-buttons">
                   <button type="button" class="resetForm-btn-REG">Reset form</button>
