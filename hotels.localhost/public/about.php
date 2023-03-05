@@ -44,7 +44,8 @@
             <article class="about-container">
                 <section class=about-title>Who we are</section>
                     <section class=about-main>
-                        Pellentesque in ipsum id orci porta dapibus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                        TravelWorld was founded in 2015. Through the continuous development and expansion of its activities, it emerged as a leading Hotel Management company.
+                        It is one of the largest producers of hotel reservations in the Greek market, while it has received various distinctions and awards from the most reliable international organizations for the high level of its services and its business development.  
                     </section>
                     <div class="about-photo">
 

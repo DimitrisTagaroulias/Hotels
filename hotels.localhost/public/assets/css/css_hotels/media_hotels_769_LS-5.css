@@ -44,16 +44,19 @@
 }
 
 #after-nav {
-  height: 47px;
-  line-height: 47px;
+  font-size: var(--containerHeaderSize);
   margin: auto;
   width: 100%;
   max-width: 400px;
-  padding: 0px;
+  padding: 12px;
   color: #ebebeb;
   background-image: linear-gradient(var(--mainColor));
   text-shadow: none;
   box-shadow: var(--box-shadow-normal-gray);
+}
+
+.after-nav {
+  background-image: none;
 }
 
 .search-fieldset {
@@ -106,11 +109,6 @@
 
 /* HOTELS SEARCH END*/
 
-@media screen and (min-width: 995px) and (orientation: landscape) {
-  #after-nav {
-    font-size: 1.2rem;
-  }
-}
 /* OUT of @Mediaquery*/
 
 /* OUT of @Mediaquery*/

@@ -52,6 +52,7 @@
 
 #after-nav {
   grid-area: search-message;
+  font-size: var(--articleHeaderSize);
   font-style: italic;
   letter-spacing: 1px;
   margin-top: 3rem;
