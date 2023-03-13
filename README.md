@@ -55,5 +55,4 @@ Live version URL:
    !!! IMPORTANT: the user must have Global privileges (checked ALL privileges) !!!
 
 9. Open your browser and type "hotels.localhost" on the address bar.
-```
 
