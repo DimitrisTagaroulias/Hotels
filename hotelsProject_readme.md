@@ -21,10 +21,8 @@ Live version URL:
 - HTML
 - CSS
 - JavaScript
-- NodeJS
-- ExpressJS
-- Socket.IO
-- MongoDB
+- PHP
+- MySQL
 
 ## Prerequisites
 
