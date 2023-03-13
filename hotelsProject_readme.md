@@ -1,11 +1,41 @@
-SETUP INSTRUCTIONS
+## Table of contents
 
-In order to run this application:
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
 
-1. you need to install xampp(Apache ,MySQL).
+## General info
+
+Description:
+  - This is a project that helps the user to find a hotel room and book it.
+
+Purpose:
+ - As a junior Front-End Web Developer, my purpose in creating this project was to practice Front-End and Back-End technologies and improve my skills.
+
+Live version URL:
+ - https://pagia.shop
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- NodeJS
+- ExpressJS
+- Socket.IO
+- MongoDB
+
+## Prerequisites
+
+- XAMMP(PHP, MySQL)
+
+## Setup
+```
+1. Install xampp(PHP, MySQL).
 2. In xampp/htdocs folder create a "vhosts" folder and put the "hotels.localhost" folder of this project in there.
 3. In xampp/apache/conf/extra open the "httpd-vhosts.conf" file and add these lines:
-   <VirtualHost withoutthebackslash\*:80>
+   <VirtualHost *:80>
    ServerAdmin "your@email.example"
    DocumentRoot "C:/xampp/htdocs/vhosts/hotels.localhost/public"
    ServerName "hotels.localhost"
@@ -25,3 +55,4 @@ In order to run this application:
       !IMPORTANT: the user must have Global privileges (checked ALL privileges)
 
 9. Open your browser and type "hotels.localhost" on the address bar.
+```
